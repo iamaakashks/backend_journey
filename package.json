@@ -4,12 +4,13 @@
   "description": "node package manager",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
   "author": "Aakash",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "url": "^0.11.4"
   }
 }
